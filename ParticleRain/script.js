@@ -60,8 +60,8 @@ myImage.addEventListener('load', function(){
       this.speed = mappedImage[this.position1][this.position2][0];
       let movement = (2.5 - this.speed) + this.velocity;
     
-      this.y += movement;
-      //this.y += this.velocity;
+      //this.y += movement;
+      this.y += this.velocity;
       if(this.y >= canvas.height){
         this.y = 0; 
         this.x = Math.random() * canvas.width;
@@ -85,7 +85,7 @@ myImage.addEventListener('load', function(){
   init();
 
   function animate(){
-    //ctx.drawImage(myImage, 0, 0, canvas.width, canvas.height);
+    ctx.drawImage(myImage, 0, 0, canvas.width, canvas.height);
     ctx.globalAlpha = 0.05;
     ctx.fillStyle = 'rgb(0,0,0)';
     ctx.fillRect(0,0, canvas.width,canvas.height);
