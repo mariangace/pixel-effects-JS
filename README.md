@@ -2,6 +2,6 @@
 
 Pixel Effects with JS
 
-To see projects alive go to:
+To see live projects go to:
 
 [pixels.bunnycoding.com](https://pixels.bunnycoding.com/):
