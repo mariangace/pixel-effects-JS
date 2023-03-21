@@ -4,4 +4,4 @@ Pixel Effects with JS
 
 To see live projects go to:
 
-[pixels.bunnycoding.com](https://pixels.bunnycoding.com/):
+[pixels.mariangarcia.site](https://pixels.mariangarcia.site/):
